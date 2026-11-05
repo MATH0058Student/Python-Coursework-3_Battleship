@@ -16,6 +16,7 @@ def test_board():
     print(is_ship_hit, has_ship_sunk)
     assert is_ship_hit == True
     assert has_ship_sunk == False
+    board.print(show_ships=True)
 
 
 if __name__ == "__main__":
